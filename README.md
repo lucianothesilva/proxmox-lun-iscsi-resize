@@ -1,7 +1,7 @@
 
 # How to resize a LUN iSCSI in Proxmox 
 
-This process assumes you have already set up your Proxmox cluster with multipath and have already set up th resize in your SAN..
+This process assumes you have already set up your Proxmox cluster with multipath and have already set up the resize in your SAN.
 
 Display information about all physical volumes (PVs) with additional tag details, your LUN_name will be in /dev/mapper/Your_LUN_name. It will also show your device identifier.
 
